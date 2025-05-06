@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://raw.githubusercontent.com/cnaebadi/null-replacer/main/.github/assets/banner.png" width="400" alt="Null Replacer Logo">
+    <img src="https://raw.githubusercontent.com/cnaebadi/null-replacer/main/.github/assets/banner.png" style="max-width: 400px; width: 100%;" alt="Null Replacer Logo">
 </p>
 
 # Null Replacer
