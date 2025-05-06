@@ -5,7 +5,8 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Cnaebadi\\NullReplacer\\": "src/"
+            "Cnaebadi\\NullReplacer\\": "src/",
+            "Tests\\": "tests/"
         }
     },
     "extra": {
@@ -26,6 +27,8 @@
         "laravel/framework": "^12.0"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "orchestra/testbench": "^10.2"
+    }
 }
-
