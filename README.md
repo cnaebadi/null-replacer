@@ -37,7 +37,7 @@ In your Laravel Form Request:
 
 ---
 
-```bash
+```php
 public function rules()
 {
     return [
