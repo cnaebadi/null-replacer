@@ -68,8 +68,7 @@ If you want to customize the behavior, you can publish the config (if added late
 
 ## 🧑‍💻 Author
 
-#### Sina Ebadi 
-GitHub @cnaebadi
+#### Sina Ebadi
 
 ---
 
