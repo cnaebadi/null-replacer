@@ -31,7 +31,7 @@ composer require cnaebadi/null-replacer
 
 ## 🧪 Usage
     
-⚠️ Note: When using null_replacer, you do not need to use nullable. This rule handles null values entirely on its own and using nullable before it may interfere with its functionality.
+⚠️ Note: When using `null_replacer`, you do **not** need to use `nullable`. This rule handles null values entirely on its own and using nullable before it may interfere with its functionality.
 
 In your Laravel Form Request:
 
@@ -52,11 +52,9 @@ return [
 
 ## 🛠 How It Works
 
-null-replacer:true → 'true'/'false' → true/false
-
-null-replacer:something → replaces null with "something"
-
-null-replacer (no value) → removes the key from the request if it's null
+- `null-replacer:true`: `'true'`/`'false'` → `true`/`false`
+- `null-replacer:something`: replaces `null` with `"something"`
+- `null-replacer (no value)`: removes the key from the request if it's `null`
 
 ---
 
