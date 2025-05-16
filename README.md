@@ -40,7 +40,7 @@ In your Laravel Form Request:
 ```bash
 public function rules()
 {
-return [
+    return [
         'optional_note'  => ['null_replacer'], // Removes key if null
         'is_active'      => ['null_replacer:true'], // Converts to boolean true
         'email'          => ['null_replacer:default@example.com'], // Replaces null with given default
